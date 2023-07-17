@@ -65,7 +65,34 @@ body {
     background-color: #222222;
   }
 }
+.home-main {
+  background: url(https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=822&q=80)
+    no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  margin-bottom: 20px;
+}
 
+.main-content {
+  color: #171717;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 60%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+.main-content h1 {
+  font-size: 3rem;
+}
+
+.main-content p {
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+}
 .container3 {
   display: flex;
 }
@@ -171,7 +198,6 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 0px;
-  padding-left: 0px;
 }
 .penjelasan1 {
   flex-basis: 70%;
@@ -185,7 +211,7 @@ body {
 .layanan {
   flex-basis: 50%;
   margin-right: 30px;
-  background-color: #78C1F3;
+  background-color: #78c1f3;
   padding: 15px;
 }
 .layanan :last-child {
@@ -196,7 +222,7 @@ body {
   margin-right: 30px;
   margin-top: 40px;
   margin-bottom: 40px;
-  background-color: #78C1F3;
+  background-color: #78c1f3;
   padding: 15px;
 }
 
@@ -224,7 +250,7 @@ body {
 .gbisnis {
   flex-basis: 50%;
 }
-.gcon{
+.gcon {
   display: flex;
 }
 .gbisnis img {
@@ -307,4 +333,3 @@ body {
 .price {
   background-color: #ffff;
 }
-
