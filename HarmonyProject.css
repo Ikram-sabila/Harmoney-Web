@@ -165,7 +165,8 @@ body {
   align-items: center;
 }
 .gambar3 img {
-  width: 300px;
+  width: 100%;
+  max-width: 300px;
   height: auto;
   padding-top: 10px;
   padding-bottom: 10px;
