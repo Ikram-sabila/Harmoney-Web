@@ -1,0 +1,307 @@
+* {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+.container {
+  max-width: 1200px;
+  padding: 0 60px;
+}
+/*---------------------------------------
+         NAVBAR MENU                
+      -----------------------------------------*/
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: lighter;
+}
+.navbar {
+  padding: 10px;
+  background-color: black;
+}
+
+.navbar-brand {
+  font-size: 20px;
+  color: #f7ffe5;
+}
+
+.navbar img {
+  height: 60px;
+  border-radius: 50%;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #f7ffe5;
+  position: relative;
+}
+
+.navbar-nav .nav-item .nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #8a2be2; /* Ubah ke warna ungu ke biruan yang diinginkan */
+  transition: width 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-item .nav-link:hover,
+.navbar-nav .nav-item .nav-link:hover span {
+  color: #8a2be2; /* Ubah ke warna ungu ke biruan yang diinginkan */
+}
+
+.navbar-nav .nav-item .nav-link:hover::after {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    background-color: #222222;
+  }
+}
+
+.container3 {
+  display: flex;
+}
+.foto1 {
+  flex-basis: 55%;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+.foto2 {
+  flex-basis: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.foto1 img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+
+.foto2 img {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+.target1 {
+  padding-top: 40px;
+  display: flex;
+}
+
+.penjelasan2 {
+  padding-top: 10px;
+  border-top: black;
+}
+
+.penjelasan3 {
+  padding-top: 10px;
+  padding-left: 10px;
+  border-left: 1px solid #000;
+}
+.aboutus img {
+  width: 100%;
+  height: 700px;
+}
+
+.penjelasan {
+  position: relative;
+  top: -350px;
+  color: #ffff;
+}
+
+.container2 {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+@media (max-width: 768px) {
+  .target1 {
+    display: inline;
+  }
+  .penjelasan3 {
+    border-left: none;
+  }
+  .container2 {
+    display: inline;
+  }
+}
+
+.target {
+  flex-basis: 60%;
+}
+.container2 img {
+  width: 100%;
+  max-width: 600px;
+  height: 150px;
+}
+
+.container4 {
+  display: flex;
+  background-color: #a7ede7;
+  margin-bottom: 30px;
+}
+.gambar1 {
+  flex-basis: 40%;
+}
+
+.gambar3 {
+  flex-basis: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gambar3 img {
+  width: 300px;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.penjelasan1 {
+  flex-basis: 70%;
+}
+
+.price {
+  background-color: #a7ede7;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.layanan {
+  flex-basis: 50%;
+  margin-right: 30px;
+  background-color: #78C1F3;
+  padding: 15px;
+}
+.layanan :last-child {
+  margin-right: 0px;
+}
+.layanan1 {
+  flex-basis: 100%;
+  margin-right: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: #78C1F3;
+  padding: 15px;
+}
+
+.layanan1:hover {
+  background-color: #a7ede7;
+  transform: scale(1.1);
+}
+
+.layanan:hover {
+  background-color: #a7ede7;
+  transform: scale(1.1);
+}
+
+.layanan1 {
+  transition: transform 0.3s ease;
+}
+.layanan {
+  transition: transform 0.3s ease;
+}
+.container5 {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.gbisnis {
+  flex-basis: 50%;
+}
+.gcon{
+  display: flex;
+}
+.gbisnis img {
+  width: 100%;
+  max-width: 250px;
+}
+.nomor1 {
+  flex-basis: 50%;
+  margin-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #35a29f;
+  border-radius: 20px;
+}
+.nomor1 :last-child {
+  padding-right: none;
+}
+.nomor1 h4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Gnote {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Gnote img {
+  max-width: 150px;
+  display: block;
+  margin: 0 auto;
+}
+
+.penjelasan1 {
+  padding-top: 45px;
+  padding-left: 20px;
+}
+
+@media (max-width: 768px) {
+  .container5 {
+    display: inline;
+  }
+  .nomor1 {
+    margin-top: 10px;
+  }
+  .container4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border: solid #000;
+  }
+  .penjelasan1 h5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .layanan {
+    margin-top: 20px;
+    margin-right: 0px;
+  }
+
+  .layanan1 {
+    padding-top: 20px;
+    margin-right: 0;
+  }
+  .gambar3 img {
+    border-radius: 20px;
+  }
+  .penjelasan1 {
+    padding-top: 10px;
+    padding-left: 0;
+  }
+}
+
+.price {
+  background-color: #ffff;
+}
+
