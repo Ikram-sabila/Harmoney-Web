@@ -96,7 +96,7 @@ body {
 @media (max-width: 768px){
   .main-content p{
     font-size: 1rem;
-    font-weight: 200;
+    font-weight: 500;
   }
 }
 
